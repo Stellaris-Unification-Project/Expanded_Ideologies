@@ -1,0 +1,88 @@
+expanded_ideologies_revolutionary_council = {
+	aggressiveness = 1.5
+	trade_willingness = 0.8
+	bravery = 1.25
+	combat_bravery = 1.25
+
+	military_spending = 1.2
+	colony_spending = 0.8
+
+	federation_acceptance = -20
+	nap_acceptance = 10
+	commercial_pact_acceptance = -15
+	research_agreement_acceptance = 0
+	defensive_pact_acceptance = 10
+	migration_pact_acceptance = -10
+
+	advanced_start_chance = 50
+
+	weapon_preferences = weapon_type_kinetic
+	armor_ratio = 0.6
+	shields_ratio = 0.1
+	hull_ratio = 0.3
+
+	threat_modifier = 0.75
+	threat_others_modifier = 0.75
+	friction_modifier = 2
+	claims_modifier = 2
+
+	behaviour = {
+		conqueror = yes
+		subjugator = yes
+		liberator = yes
+		opportunist = yes
+		slaver = yes
+		uplifter = yes
+		purger = no
+		displacer = no
+		dominator = yes
+		infiltrator = yes
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = no
+		multispecies = yes
+		crisis_fighter = yes
+		attack_neutrals = yes
+	}
+
+
+	allow = {
+		is_country_type = default
+		
+		NOR = {
+			has_ethic = "ethic_pacifist"
+			has_ethic = "ethic_fanatic_pacifist"
+			has_ethic = "ethic_spiritualist"
+			has_ethic = "ethic_fanatic_spiritualist"
+			has_ethic = "ethic_egalitarian"
+			}
+		OR = {
+			has_ethic = ethic_materialist
+			has_ethic = ethic_fanatic_materialist
+		}
+		OR = {
+			has_ethic = "ethic_authoritarian"
+			has_ethic = "ethic_fanatic_authoritarian"
+		}
+		NOR = {
+			has_valid_civic = civic_slaver_guilds
+			has_valid_civic = civic_mining_guilds
+			has_valid_civic = civic_corporate_dominion
+			has_valid_civic = civic_aristocratic_elite
+		}
+		has_valid_civic = civic_police_state
+		has_election_type = oligarchic
+	}
+
+	weight_modifier = {
+		weight = 250
+		modifier = {
+			factor = 2
+			has_trait = "trait_conformists"
+		}
+		modifier = {
+			factor = 4
+			has_trait = "trait_communal"
+		}
+	}
+}

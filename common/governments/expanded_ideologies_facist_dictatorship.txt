@@ -1,0 +1,93 @@
+# Fascist Dictatorship
+expanded_ideologies_gov_fascist_dict = {
+
+	ruler_title = EXPANDED_IDEOLOGIES_RT_FASCIST_DICT_LEAD_MALE
+	ruler_title_female = EXPANDED_IDEOLOGIES_RT_FASCIST_DICT_LEAD_FEMALE
+
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 1000
+			OR = {
+				leader_class = ruler
+				leader_class = admiral
+				leader_class = general
+			}
+		}
+		modifier = {
+			add = 100
+			OR = {
+				leader_class = governor
+			}
+		}
+		modifier = {
+			add = 10
+			OR = {
+				leader_class = scientist
+			}
+		}
+	}
+
+	possible = {
+		has_authority = auth_dictatorial
+		OR = {
+			has_ethic = ethic_authoritarian
+			has_ethic = ethic_fanatic_authoritarian
+		}
+		OR = {
+			has_ethic = ethic_xenophobe
+			has_ethic = ethic_fanatic_xenophobe
+		}
+		OR = {
+			has_ethic = ethic_militarist
+			has_ethic = ethic_fanatic_militarist
+		}
+		NOR = {
+			has_valid_civic = civic_aristocratic_elite
+			has_valid_civic = civic_philosopher_king
+			has_valid_civic = civic_meritocracy
+			has_valid_civic = civic_feudal_realm
+			has_valid_civic = civic_free_haven
+			has_valid_civic = civic_corporate_dominion
+			has_valid_civic = civic_parliamentary_system
+			has_valid_civic = civic_shared_burden
+			has_valid_civic = civic_barbaric_despoilers
+		}
+		NOR = {
+			has_ethic = ethic_spiritualist
+			has_ethic = ethic_fanatic_spiritualist
+			has_ethic = ethic_egalitarian
+			has_ethic = ethic_fanatic_egalitarian
+		}
+		has_valid_civic = civic_nationalistic_zeal
+	}
+
+	weight = {
+		base = 1000
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_citizen_service
+		}
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_police_state
+		}
+		modifier = {
+			factor = 1.5
+			has_valid_civic = civic_idealistic_foundation
+		}
+		modifier = {
+			factor = 1.5
+			has_valid_civic = civic_shadow_council
+		}
+		modifier = {
+			factor = 1.5
+			has_valid_civic = civic_distinguished_admiralty
+		}
+		modifier = {
+			factor = 1.5
+			has_valid_civic = civic_distinguished_admiralty
+		}
+	}
+}

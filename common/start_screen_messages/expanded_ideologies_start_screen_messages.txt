@@ -1,0 +1,95 @@
+part = {
+	location = 1
+	localization = "EXPANDED_IDEOLOGIES_START_SCREEN_PART_TWO_ANARCHO_CAPITALISM"
+	
+	trigger = {
+		OR = {
+			has_government = expanded_ideologies_gov_anarcho_capitalism
+		}
+		NOT = { has_country_flag = custom_start_screen }
+	}
+}
+
+part = {
+	location = 1
+	localization = "EXPANDED_IDEOLOGIES_START_SCREEN_PART_TWO_CORPORATOCRACY"
+	
+	trigger = {
+		OR = {
+			has_government = expanded_ideologies_gov_corporatocracy
+		}
+		NOT = { has_country_flag = custom_start_screen }
+	}
+}
+
+part = {
+	location = 1
+	localization = "EXPANDED_IDEOLOGIES_START_SCREEN_PART_TWO_SOCIAL_DEMOCRACY"
+	
+	trigger = {
+		OR = {
+			has_government = expanded_ideologies_gov_social_democracy
+		}
+		NOT = { has_country_flag = custom_start_screen }
+	}
+}
+
+part = {
+	location = 1
+	localization = "EXPANDED_IDEOLOGIES_START_SCREEN_PART_TWO_COMMUNISM"
+	
+	trigger = {
+		OR = {
+			has_government = expanded_ideologies_gov_communist
+		}
+		NOT = { has_country_flag = custom_start_screen }
+	}
+}
+
+part = {
+	location = 1
+	localization = "EXPANDED_IDEOLOGIES_START_SCREEN_PART_TWO_NAT_EXPAN"
+	
+	trigger = {
+		OR = {
+			has_government = expanded_ideologies_gov_nat_expan
+		}
+		NOT = { has_country_flag = custom_start_screen }
+	}
+}
+
+part = {
+	location = 1
+	localization = "EXPANDED_IDEOLOGIES_START_SCREEN_PART_TWO_FASCIST_DICT"
+	
+	trigger = {
+		OR = {
+			has_government = expanded_ideologies_gov_fascist_dict
+		}
+		NOT = { has_country_flag = custom_start_screen }
+	}
+}
+
+part = {
+	location = 1
+	localization = "EXPANDED_IDEOLOGIES_START_SCREEN_PART_TWO_CRUSADER_KINGDOM"
+	
+	trigger = {
+		OR = {
+			has_government = expanded_ideologies_gov_crusader_kingdom
+		}
+		NOT = { has_country_flag = custom_start_screen }
+	}
+}
+
+part = {
+	location = 1
+	localization = "EXPANDED_IDEOLOGIES_START_SCREEN_PART_TWO_HOLY_IMPERIUM"
+	
+	trigger = {
+		OR = {
+			has_government = expanded_ideologies_gov_holy_imperium
+		}
+		NOT = { has_country_flag = custom_start_screen }
+	}
+}

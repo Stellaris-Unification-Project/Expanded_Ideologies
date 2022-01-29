@@ -1,0 +1,171 @@
+greetings = {
+# Proud Xenophobes
+	EXPANDED_IDEOLOGIES_PX_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = expanded_ideologies_proud_xenophobes
+			NOT = { is_same_species = FROM }
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	EXPANDED_IDEOLOGIES_PX_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = expanded_ideologies_proud_xenophobes
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	EXPANDED_IDEOLOGIES_PX_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = expanded_ideologies_proud_xenophobes
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	EXPANDED_IDEOLOGIES_PX_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = expanded_ideologies_proud_xenophobes
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+		}
+	}
+	EXPANDED_IDEOLOGIES_PX_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = expanded_ideologies_proud_xenophobes
+			NOT = { is_at_war_with = FROM }
+			NOT = { is_same_species = FROM }
+			is_neutral_to = FROM
+		}
+	}
+	EXPANDED_IDEOLOGIES_PX_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = expanded_ideologies_proud_xenophobes
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	EXPANDED_IDEOLOGIES_PX_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = expanded_ideologies_proud_xenophobes
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	EXPANDED_IDEOLOGIES_PX_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = expanded_ideologies_proud_xenophobes
+			NOT = { is_at_war_with = FROM }
+			NOT = { is_same_species = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	EXPANDED_IDEOLOGIES_PX_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = expanded_ideologies_proud_xenophobes
+			is_in_federation_with = FROM
+			NOT = { is_at_war_with = FROM }
+			NOT = { is_same_species = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+		}
+	}
+	EXPANDED_IDEOLOGIES_PX_WAR_GREETING_01 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = expanded_ideologies_proud_xenophobes
+			NOT = { is_same_species = FROM }
+			is_at_war_with = FROM
+			FROM = { NOT = { has_authority = auth_machine_intelligence } }
+		}
+	}
+	EXPANDED_IDEOLOGIES_PX_WAR_GREETING_02 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = expanded_ideologies_proud_xenophobes
+			is_at_war_with = FROM
+		}
+	}
+	EXPANDED_IDEOLOGIES_PX_WAR_GREETING_03 = {
+		weight = {
+			weight = 3
+		}
+		trigger = {
+			has_ai_personality = expanded_ideologies_proud_xenophobes
+			is_at_war_with = FROM
+		}
+	}
+	EXPANDED_IDEOLOGIES_PX_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = expanded_ideologies_proud_xenophobes
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+			NOT = { is_disloyal_to = FROM }
+		}
+	}
+	EXPANDED_IDEOLOGIES_PX_VASSAL_GREETING_DISLOYAL_01 = {
+		weight = {
+			weight = 10
+		}
+		trigger = {
+			has_ai_personality = expanded_ideologies_proud_xenophobes
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+			is_disloyal_to = FROM
+		}
+	}
+}

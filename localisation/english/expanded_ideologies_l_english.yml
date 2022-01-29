@@ -1,0 +1,65 @@
+﻿l_english:
+
+### Capitalism
+# Anarcho-Capitalism
+ expanded_ideologies_gov_anarcho_capitalism:0 "Capitalist Anarchy"
+ expanded_ideologies_gov_anarcho_capitalism_desc:0 "This society is comprised of many private entitites of various sizes interacting voluntarily with each other in an environment with no single centralized regulatory or governing body."
+ EXPANDED_IDEOLOGIES_RT_ANARCHO_CAPITALISM_LEAD_MALE:0 "Chief Representative"
+ EXPANDED_IDEOLOGIES_RT_ANARCHO_CAPITALISM_LEAD_FEMALE:0 "Chief Representative"
+ EXPANDED_IDEOLOGIES_START_SCREEN_PART_TWO_ANARCHO_CAPITALISM:0 "Our people always strived for liberty. Through the ages, our systems of government gradually became less and less totalitarian. Private enterprise started surpassing nation-states even before the discovery of electricity, and have only grown more commonplace since. Eventually, people saw no need for centralized governments. One by one, they were voluntarily dismantled. Many consortiums began coordinating their operations on a global scale to ensure the safety and liberty of their markets."
+ 
+# Corporatocracy
+ expanded_ideologies_gov_corporatocracy:0 "Corporate Lobby"
+ expanded_ideologies_gov_corporatocracy_desc:0 "This government has strong corporate lobbies dictating the laws and decisions of the government, effectively making it a corporate oligarchy."
+ EXPANDED_IDEOLOGIES_RT_CORPORATOCRACY_LEAD_MALE:0 "Chief Executive Officer"
+ EXPANDED_IDEOLOGIES_RT_CORPORATOCRACY_LEAD_MALE:0 "Chief Executive Officer"
+ EXPANDED_IDEOLOGIES_START_SCREEN_PART_TWO_CORPORATOCRACY:0 "Ever since the ages of feudalism, powerful guilds and enterprises were heavily entrenched as the true aristocracy. Either overtly, or from the shadows, they influenced our governments. Over time, their power became effectively absolute. No matter who was the ruler, they could not resist the power of the corporations. Even now as a united world government, no matter if under king or president, one corporation has the most power on [GetHomeWorldName], until it is supplanted once more."
+ 
+### Socialism
+# Social Democracy
+ expanded_ideologies_gov_social_democracy:0 "Socialist Democracy"
+ expanded_ideologies_gov_social_democracy_desc:0 "This government is an extensive welfare state with equal access to necessities paid for by taxation."
+ EXPANDED_IDEOLOGIES_RT_SOCIAL_DEMOCRACY_LEAD_MALE:0 "Prime Minister"
+ EXPANDED_IDEOLOGIES_RT_SOCIAL_DEMOCRACY_LEAD_FEMALE:0 "Prime Minister"
+ EXPANDED_IDEOLOGIES_START_SCREEN_PART_TWO_SOCIAL_DEMOCRACY:0 "After ages of strife and oppression, the days of squalor and inequality are over. No longer shall each person's personal life situation deprive them from their basic rights. No one should go without access to food, shelter, and healthcare. With ethics and compassion guiding our various governments, [GetHomeworldName] advances forward into the future."
+
+# Communist Dictatorship
+ expanded_ideologies_gov_communist:0 "Communist Dictatorship"
+ expanded_ideologies_gov_communist_desc:0 "This government is a totalitarian communist regime, with one ruling party, extensive state surveillance, and central planning of the economy."
+ EXPANDED_IDEOLOGIES_RT_COMMUNIST_LEAD_MALE:0 "Secretary General"
+ EXPANDED_IDEOLOGIES_RT_COMMUNIST_LEAD_FEMALE:0 "Secretary General"
+ EXPANDED_IDEOLOGIES_START_SCREEN_PART_TWO_COMMUNISM:0 "We have settled far and wide. We have progressed through the ages separate and disparate. But eventually, during the age of mass industrialization, the workers started resisting their oppressors en-masse. After a series of violent global revolutions, a united Communist government emerged. United forever in friendship and labor, the [GetName] will live through the ages!"
+ 
+### Fascism
+# Nationalistic Expansionists
+expanded_ideologies_gov_nat_expan:0 "Nationalistic Expansionists"
+expanded_ideologies_gov_nat_expan_desc:0 "This government is a totalitarian fascist regime, with one ruling party, extensive nationalistic zeal, and institutionalized xenophobia."
+EXPANDED_IDEOLOGIES_RT_NAT_EXPAN_LEAD_MALE:0 "Chancellor"
+EXPANDED_IDEOLOGIES_RT_NAT_EXPAN_LEAD_FEMALE:0 "Chancellor"
+EXPANDED_IDEOLOGIES_START_SCREEN_PART_TWO_NAT_EXPAN:0 "Our people have been separated from each other for many ages. After troublesome times where our cultures and ideologies were embattled against each other in global wars, we have united everyone under our rule. All undesirables have been expunged. We have finally solidified our dominion over [GetHomeWorldName]. Oh what a future for our people!"
+
+# Fascist Dictatorship
+expanded_ideologies_gov_fascist_dict:0 "Fascist Dictatorship"
+expanded_ideologies_gov_fascist_dict_desc:0 "This government is a totalitarian fascist dictatorship, focused on its military strength and societal order."
+EXPANDED_IDEOLOGIES_RT_FASCIST_DICT_LEAD_MALE:0 "Supreme Leader"
+EXPANDED_IDEOLOGIES_RT_FASCIST_DICT_LEAD_FEMALE:0 "Supreme Leader"
+EXPANDED_IDEOLOGIES_START_SCREEN_PART_TWO_FASCIST_DICT:0 "We have faced many hardships, and only through the unification of our power and the guiding hand of our supreme leaders, were we able to finally quash all dissent and unify against all others. We are forever united and proud! We are the [GetName] and we will rule forever!"
+
+### Religious
+# Crusader Kingdom
+expanded_ideologies_gov_crusader_kingdom:0 "Crusader Kingdom"
+expanded_ideologies_gov_crusader_kingdom_desc:0 "This government is an imperial hierarchical monarchy of kings, dukes, counts, and barons. It is plagued with devious plots and religious struggles."
+EXPANDED_IDEOLOGIES_RT_CRUSADER_KINGDOM_LEAD_MALE:0 "Emperor"
+EXPANDED_IDEOLOGIES_RT_CRUSADER_KINGDOM_LEAD_FEMALE:0 "Empress"
+EXPANDED_IDEOLOGIES_RT_CRUSADER_KINGDOM_HEIR_MALE:0 "Crown Prince"
+EXPANDED_IDEOLOGIES_RT_CRUSADER_KINGDOM_HEIR_FEMALE:0 "Crown Princess"
+EXPANDED_IDEOLOGIES_START_SCREEN_PART_TWO_CRUSADER_KINGDOM:0 "From the dawn of our blessed empire we have sought glory and unity, through holy crusades guided by our wise lords. Now as we [GetSpeciesNamePlural] stand united under the divine appointed regents, we turn our gaze to the stars, to the vast worlds beyond our own. We shall unite these new worlds and lead them to enlightenment under the watchful gaze of the divine! The time for the greatest crusade is upon us! The divine wills it, and so it shall be!"
+
+# Holy Imperium
+expanded_ideologies_gov_holy_imperium:0 "Holy Imperium"
+expanded_ideologies_gov_holy_imperium_desc:0 "This government is ruled by a \"God Emperor\" with great zeal. It distrusts external influences and suffers not the xeno to live."
+EXPANDED_IDEOLOGIES_RT_HOLY_IMPERIUM_LEAD_MALE:0 "God-Emperor"
+EXPANDED_IDEOLOGIES_RT_HOLY_IMPERIUM_LEAD_FEMALE:0 "God-Empress"
+EXPANDED_IDEOLOGIES_RT_HOLY_IMPERIUM_HEIR_MALE:0 "Ascendant"
+EXPANDED_IDEOLOGIES_RT_HOLY_IMPERIUM_HEIR_FEMALE:0 "Ascendant"
+EXPANDED_IDEOLOGIES_START_SCREEN_PART_TWO_HOLY_IMPERIUM:0 "Under the protection and guidance of the [GetRulerTitle], the [GetSpeciesNamePlural] have been united and prosperous. But our holy [GetHomeWorldName] grows crowded and polluted. Perhaps we are ready to face the great void and its dangers. It is time to achieve our glory! For the [GetRulerTitle]!"

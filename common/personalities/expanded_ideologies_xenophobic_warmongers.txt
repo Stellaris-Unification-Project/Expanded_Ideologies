@@ -1,0 +1,83 @@
+expanded_ideologies_xenophobic_warmongers = {
+	aggressiveness = 2
+	trade_willingness = 0.5
+	bravery = 1.75
+	combat_bravery = 2
+
+	military_spending = 1.5
+	colony_spending = 1.0
+
+	federation_acceptance = -30
+	nap_acceptance = -50
+	commercial_pact_acceptance = -25
+	research_agreement_acceptance = -25
+	defensive_pact_acceptance = -30
+	migration_pact_acceptance = -100
+
+	advanced_start_chance = 10
+
+	weapon_preferences = weapon_type_explosive
+	armor_ratio = 0.6
+	shields_ratio = 0.2
+	hull_ratio = 0.2
+
+	threat_modifier = 1
+	threat_others_modifier = 0.75
+	friction_modifier = 2.0
+	claims_modifier = 3
+
+	behaviour = {
+		conqueror = yes
+		subjugator = yes
+		liberator = no
+		opportunist = yes
+		slaver = yes
+		uplifter = no
+		purger = yes
+		displacer = yes
+		dominator = yes
+		infiltrator = yes
+		robot_exploiter = yes
+		robot_liberator = no
+		propagator = no
+		multispecies = no
+		attack_neutrals = yes
+	}
+
+	allow = {
+		is_country_type = default
+		
+		OR = {
+			has_ethic = "ethic_militarist"
+			has_ethic = "ethic_fanatic_militarist"
+		}
+		OR = {
+			has_ethic = "ethic_xenophobe"
+			has_ethic = "ethic_fanatic_xenophobe"
+		}
+		OR = {
+			has_ethic = "ethic_authoritarian"
+			has_ethic = "ethic_fanatic_authoritarian"
+		}
+		OR = {
+			has_election_type = oligarchic
+			has_election_type = none
+		}
+	}
+
+	weight_modifier = {
+		weight = 250
+		modifier = {
+			factor = 2
+			has_trait = "trait_strong"
+		}
+		modifier = {
+			factor = 4
+			has_trait = "trait_very_strong"
+		}
+		modifier = {
+			factor = 4
+			has_valid_civic = civic_nationalistic_zeal
+		}
+	}
+}

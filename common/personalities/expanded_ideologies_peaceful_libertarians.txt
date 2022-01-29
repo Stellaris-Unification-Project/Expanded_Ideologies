@@ -1,0 +1,128 @@
+expanded_ideologies_peaceful_libertarians = {
+	aggressiveness = 0.5
+	trade_willingness = 1.0
+	bravery = 0.5
+	combat_bravery = 0.75
+
+	military_spending = 1
+	colony_spending = 2
+
+	federation_acceptance = 0
+	nap_acceptance = 50
+	commercial_pact_acceptance = 50
+	research_agreement_acceptance = 25
+	defensive_pact_acceptance = -20
+	migration_pact_acceptance = 25
+
+	advanced_start_chance = 30
+
+	weapon_preferences = weapon_type_explosive
+	armor_ratio = 0.2
+	shields_ratio = 0.6
+	hull_ratio = 0.2
+
+	threat_modifier = 2
+	threat_others_modifier = 1
+	friction_modifier = 0.1
+	claims_modifier = 3.0 # Don't tread on me
+
+	behaviour = {
+		conqueror = no
+		subjugator = no
+		liberator = yes
+		opportunist = yes
+		slaver = no
+		uplifter = yes
+		purger = no
+		displacer = no
+		infiltrator = no
+		dominator = no
+		robot_exploiter = no
+		robot_liberator = yes
+		propagator = yes
+		multispecies = yes
+		crisis_fighter = yes
+	}
+
+	allow = {
+		is_country_type = default
+		
+		OR = {
+			has_ethic = "ethic_pacifist"
+			has_ethic = "ethic_fanatic_pacifist"
+		}
+		OR = {
+			has_ethic = "ethic_egalitarian"
+		}
+		NOR ={
+			has_ethic = "ethic_militarist"
+			has_ethic = "ethic_fanatic_militarist"	
+			has_ethic = "ethic_xenophobe"
+			has_ethic = "ethic_fanatic_xenophobe"
+			has_ethic = "ethic_fanatic_egalitarian"
+			has_ethic = "ethic_fanatic_materialist"
+			has_ethic = "ethic_spiritualist"
+			has_ethic = "ethic_fanatic_spiritualist"
+		}
+		NOR = {
+			has_valid_civic = civic_police_state
+			has_valid_civic = civic_cutthroat_politics
+			has_valid_civic = civic_mining_guilds
+			has_valid_civic = civic_shadow_council
+			has_valid_civic = civic_corvee_system
+			has_valid_civic = civic_imperial_cult
+			has_valid_civic = civic_exalted_priesthood
+			has_valid_civic = civic_philosopher_king
+			has_valid_civic = civic_citizen_service
+			has_valid_civic = civic_technocracy
+			has_valid_civic = civic_slaver_guilds
+			has_valid_civic = civic_inwards_perfection
+			has_valid_civic = civic_warrior_culture
+			has_valid_civic = civic_distinguished_admiralty
+			has_valid_civic = civic_corporate_dominion
+			has_valid_civic = civic_shadow_council
+			has_valid_civic = civic_nationalistic_zeal
+			has_valid_civic = civic_aristocratic_elite
+			has_valid_civic = civic_shared_burden
+			has_valid_civic = civic_fanatic_purifiers
+			has_valid_civic = civic_barbaric_despoilers
+			has_valid_civic = civic_byzantine_bureaucracy
+			has_valid_civic = civic_gospel_of_the_masses
+			has_valid_civic = civic_criminal_heritage
+			has_valid_civic = civic_indentured_assets
+			}
+		OR = {
+			AND = {
+				has_valid_civic = civic_free_traders
+				has_authority = auth_corporate
+			}
+			AND = {
+				has_valid_civic = civic_beacon_of_liberty
+				has_election_type = democratic
+			}
+		}
+	}
+
+	weight_modifier = {
+		weight = 500
+		modifier = {
+			factor = 2
+			has_trait = "trait_solitary"
+		}
+		modifier = {
+			factor = 4
+			has_trait = "trait_deviants"
+		}
+		modifier = {
+			factor = 3
+			has_valid_civic = "civic_meritocracy"
+		}
+		modifier = {
+			factor = 5
+			OR={
+				has_ethic = "ethic_materialist"
+				has_ethic = "ethic_fanatic_materialist"
+			}
+		}
+	}
+}

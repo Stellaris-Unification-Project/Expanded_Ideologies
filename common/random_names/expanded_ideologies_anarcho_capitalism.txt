@@ -1,0 +1,141 @@
+# Anarcho Capitalist
+empire_name_parts_list = {
+	key = "expanded_ideologies_anarcho_capitalist"
+	parts = {
+		"Anarchy" = 3
+		"Alliance" = 3
+		"Minarchy" = 3
+		"League" = 3
+		"Freedom" = 3
+		"Association" = 3
+		"Coalition" = 2
+		"Assembly" = 2
+		"Organization" = 2
+		"Council" = 2
+		"Cooperative" = 2
+		"Commonality" = 1
+		"Concordat" = 1
+		"Accord" = 1
+	}
+}
+
+# Anarcho Capitalist Descriptive
+empire_name_parts_list = {
+	key = "expanded_ideologies_anarcho_capitalist_desc"
+	parts = {
+		"Interstellar" = 1
+		"Galactic" = 1
+		"Liberal" = 3
+		"Free" = 3
+		"Liberated" = 3
+		"Libertarian" = 3
+		"Voluntary" = 3
+	}
+}
+
+# Anarcho Capitalist Middle Descriptive
+empire_name_parts_list = {
+	key = "expanded_ideologies_anarcho_capitalist_mid_desc"
+	parts = {
+		"Interstellar" = 1
+		"Interplanetary" = 1
+		"Galactic" = 1
+		"Stellar" = 1
+		"Liberal" = 1
+	}
+}
+
+# Anarcho Capitalist 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			has_government = "expanded_ideologies_gov_anarcho_capitalism"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.expanded_ideologies_anarcho_capitalist.1"
+	noun = "[This.Capital.System.GetName]"
+	prefix_format = "[This.Capital.System.GetName] <expanded_ideologies_anarcho_capitalist>"
+	# Empire of Sol
+}
+
+# Anarcho Capitalist 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			has_government = "expanded_ideologies_gov_anarcho_capitalism"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.expanded_ideologies_anarcho_capitalist.2"
+	noun = "[This.Capital.GetName]"
+	prefix_format = "[This.Capital.GetName] <expanded_ideologies_anarcho_capitalist>"
+	# Empire of Sol
+}
+
+# Anarcho Capitalist 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 5
+			has_government = "expanded_ideologies_gov_anarcho_capitalism"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.expanded_ideologies_anarcho_capitalist.3"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <expanded_ideologies_anarcho_capitalist>"
+	# Human Empire
+}
+
+# Anarcho Capitalist 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 2
+			has_government = "expanded_ideologies_gov_anarcho_capitalism"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.expanded_ideologies_anarcho_capitalist.4"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <expanded_ideologies_anarcho_capitalist>"
+	# Great Human Empire
+}
+
+# Anarcho Capitalist 5
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 2
+			has_government = "expanded_ideologies_gov_anarcho_capitalism"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.expanded_ideologies_anarcho_capitalist.5"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <expanded_ideologies_anarcho_capitalist>"
+	# Human Star Empire
+}

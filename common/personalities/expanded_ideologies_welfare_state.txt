@@ -1,0 +1,72 @@
+expanded_ideologies_welfare_state = {
+	aggressiveness = 0.6
+	trade_willingness = 1.0
+	bravery = 0.3
+	combat_bravery = 1.0
+
+	military_spending = 0.8
+	colony_spending = 1.5
+
+	federation_acceptance = 20
+	nap_acceptance = 25
+	commercial_pact_acceptance = 5
+	research_agreement_acceptance = 10
+	defensive_pact_acceptance = 25
+	migration_pact_acceptance = 10
+
+	advanced_start_chance = 20
+
+	weapon_preferences = weapon_type_kinetic
+	armor_ratio = 0.4
+	shields_ratio = 0.6
+	hull_ratio = 0.0
+
+	threat_modifier = 0.75
+	threat_others_modifier = 1
+	friction_modifier = 0.5
+	claims_modifier = 1
+
+	behaviour = {
+		conqueror = no
+		subjugator = no
+		liberator = yes
+		opportunist = yes
+		slaver = no
+		uplifter = yes
+		purger = no
+		displacer = no
+		infiltrator = no
+		dominator = no
+		robot_exploiter = no
+		robot_liberator = yes
+		propagator = yes
+		multispecies = yes
+		crisis_fighter = yes
+	}
+
+	allow = {
+		is_country_type = default
+		
+		OR = {
+			has_ethic = "ethic_pacifist"
+			has_ethic = "ethic_fanatic_pacifist"
+		}
+		OR = {
+			has_ethic = "ethic_fanatic_egalitarian"		
+		}
+		has_valid_civic = civic_idealistic_foundation
+		has_election_type = democratic
+	}
+
+	weight_modifier = {
+		weight = 100
+		modifier = {
+			factor = 2
+			has_trait = "trait_communal"
+		}
+		modifier = {
+			factor = 4
+			has_trait = "trait_conformists"
+		}
+	}
+}

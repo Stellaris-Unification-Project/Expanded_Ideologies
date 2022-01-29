@@ -1,0 +1,89 @@
+# Nationalistic Expansionists
+expanded_ideologies_gov_nat_expan = {
+	ruler_title = EXPANDED_IDEOLOGIES_RT_NAT_EXPAN_LEAD_MALE
+	ruler_title_female = EXPANDED_IDEOLOGIES_RT_NAT_EXPAN_LEAD_FEMALE
+
+	should_force_rename = yes
+	
+	election_candidates = {
+		modifier = {
+			add = 1000
+			OR = {
+				leader_class = ruler
+				leader_class = admiral
+				leader_class = general
+			}
+		}
+		modifier = {
+			add = 100
+			OR = {
+				leader_class = governor
+			}
+		}
+		modifier = {
+			add = 10
+			OR = {
+				leader_class = scientist
+			}
+		}
+	}
+	possible = {
+		OR = {
+			has_authority = auth_dictatorial
+			has_authority = auth_oligarchic
+		}
+		OR = {
+			has_ethic = ethic_authoritarian
+			has_ethic = ethic_fanatic_authoritarian
+			}
+		OR = {
+			has_ethic = ethic_xenophobe
+			has_ethic = ethic_fanatic_xenophobe
+		}
+		OR = {
+			has_ethic = ethic_militarist
+			has_ethic = ethic_fanatic_militarist
+		}
+		NOR = {
+			has_valid_civic = civic_aristocratic_elite
+			has_valid_civic = civic_beacon_of_liberty
+			has_valid_civic = civic_feudal_realm
+			has_valid_civic = civic_idealistic_foundation
+			has_valid_civic = civic_inwards_perfection
+			has_valid_civic = civic_free_haven
+			has_valid_civic = civic_corporate_dominion
+			has_valid_civic = civic_parliamentary_system
+			has_valid_civic = civic_shared_burden
+		}
+		NOR = {
+			has_ethic = ethic_spiritualist
+			has_ethic = ethic_fanatic_spiritualist
+			has_ethic = ethic_egalitarian
+			has_ethic = ethic_fanatic_egalitarian
+		}
+		has_valid_civic = civic_nationalistic_zeal
+	}
+	weight = {
+		base = 1000
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_philosopher_king
+		}
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_citizen_service
+		}
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_police_state
+		}
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_cutthroat_politics
+		}
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_shadow_council
+		}
+	}
+}

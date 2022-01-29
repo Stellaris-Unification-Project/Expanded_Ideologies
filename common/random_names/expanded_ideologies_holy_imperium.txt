@@ -1,0 +1,133 @@
+# Holy Imperium
+empire_name_parts_list = {
+	key = "expanded_ideologies_holy_imperium"
+	parts = {
+		"Imperium" = 3
+		"Empire" = 2
+		"Kingdom" = 1
+		"Primacy" = 1
+	}
+}
+
+# Holy Imperium Descriptive
+empire_name_parts_list = {
+	key = "expanded_ideologies_holy_imperium_desc"
+	parts = {
+		"Holy" = 4
+		"Divine" = 4
+		"Blessed" = 4
+		"Sacred" = 4
+		"Sacrosanct" = 4
+		"Pious" = 4
+		"Pure" = 3
+	}
+}
+
+# Holy Imperium Middle Descriptive
+empire_name_parts_list = {
+	key = "expanded_ideologies_holy_imperium_mid_desc"
+	parts = {
+		"Holy" = 4
+		"Divine" = 4
+		"Blessed" = 4
+		"Sacred" = 4
+		"Sacrosanct" = 4
+		"Pious" = 4
+		"Pure" = 3
+	}
+}
+
+# Holy Imperium 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			has_government = "expanded_ideologies_gov_holy_imperium"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.expanded_ideologies_holy_imperium.1"
+	noun = "[This.Capital.System.GetName]"
+	prefix_format = "[This.Capital.System.GetName] <expanded_ideologies_holy_imperium>"
+	# Empire of Sol
+}
+
+# Holy Imperium 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			has_government = "expanded_ideologies_gov_holy_imperium"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.expanded_ideologies_holy_imperium.2"
+	noun = "[This.Capital.GetName]"
+	prefix_format = "[This.Capital.GetName] <expanded_ideologies_holy_imperium>"
+	# Empire of Earth
+}
+
+# Holy Imperium 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 5
+			has_government = "expanded_ideologies_gov_holy_imperium"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.expanded_ideologies_holy_imperium.3"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <expanded_ideologies_holy_imperium>"
+	# Human Empire
+}
+
+# Holy Imperium 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 2
+			has_government = "expanded_ideologies_gov_holy_imperium"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.expanded_ideologies_holy_imperium.4"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <expanded_ideologies_holy_imperium>"
+	# Great Human Empire
+}
+
+# Holy Imperium 5
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 2
+			has_government = "expanded_ideologies_gov_holy_imperium"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.expanded_ideologies_holy_imperium.5"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <expanded_ideologies_holy_imperium>"
+	# Human Star Empire
+}

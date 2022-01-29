@@ -1,0 +1,151 @@
+# Crusader Kingdom
+empire_name_parts_list = {
+	key = "expanded_ideologies_holy_crusader_kingdom"
+	parts = {
+		"Empire" = 3
+		"Imperium" = 2
+		"Hegemony" = 1
+		"Hierarchy" = 2
+		"Realms" = 2
+		"Realm" = 2
+		"Dominion" = 1
+	}
+}
+
+# Crusader Kingdom Descriptive
+empire_name_parts_list = {
+	key = "expanded_ideologies_holy_crusader_kingdom_desc"
+	parts = {
+		"Interstellar" = 1
+		"Galactic" = 2
+		"United" = 3
+		"Great" = 3
+		"Glorious" = 3
+		"Feudal" = 2
+	}
+}
+
+# Crusader Kingdom Middle Descriptive
+empire_name_parts_list = {
+	key = "expanded_ideologies_holy_crusader_kingdom_mid_desc"
+	parts = {
+		"Interstellar" = 1
+		"Interplanetary" = 1
+		"Galactic" = 1
+		"Star" = 3
+		"Stellar" = 1
+		"Great" = 1
+		"Glorious" = 1
+		"Feudal" = 1
+	}
+}
+
+# Crusader Kingdom 1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "expanded_ideologies_gov_crusader_kingdom"
+				
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.expanded_ideologies_holy_crusader_kingdom.1"
+	prefix_format = "[This.Capital.System.GetName] <expanded_ideologies_holy_crusader_kingdom>"
+	noun = "[This.Capital.System.GetName]"
+	# Empire of Sol
+}
+
+# Crusader Kingdom 2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			OR = {
+				has_government = "expanded_ideologies_gov_crusader_kingdom"
+				
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.expanded_ideologies_holy_crusader_kingdom.2"
+	prefix_format = "[This.Capital.GetName] <expanded_ideologies_holy_crusader_kingdom>"
+	noun = "[This.Capital.GetName]"
+	# Empire of Earth
+}
+
+# Crusader Kingdom 3
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 5
+			OR = {
+				has_government = "expanded_ideologies_gov_crusader_kingdom"
+				
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.expanded_ideologies_holy_crusader_kingdom.3"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <expanded_ideologies_holy_crusader_kingdom>"
+	# Human Empire
+}
+
+# Crusader Kingdom 4
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 2
+			OR = {
+				has_government = "expanded_ideologies_gov_crusader_kingdom"
+				
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.expanded_ideologies_holy_crusader_kingdom.4"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <expanded_ideologies_holy_crusader_kingdom>"
+	# Great Human Empire
+}
+
+# Crusader Kingdom 5
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 2
+			OR = {
+				has_government = "expanded_ideologies_gov_crusader_kingdom"
+				
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.expanded_ideologies_holy_crusader_kingdom.5"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <expanded_ideologies_holy_crusader_kingdom>"
+	# Human Star Empire
+}

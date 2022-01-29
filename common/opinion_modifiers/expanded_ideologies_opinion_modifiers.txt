@@ -1,0 +1,56 @@
+#extended_ideologies_peaceful_libertarians_vs_oligarchic = {
+#	opinion = {
+#		modifier = {
+#			add = -50
+#			has_ai_personality = expanded_ideologies_peaceful_libertarians	
+#			FROM = { has_election_type = oligarchic }
+#		}	
+#	}
+#}
+#
+#extended_ideologies_peaceful_libertarians_vs_autocratic = {
+#	opinion = {
+#		modifier = {
+#			add = -100
+#			has_ai_personality = expanded_ideologies_peaceful_libertarians	
+#			FROM = { has_election_type = none }
+#		}	
+#	}
+#}
+#
+#extended_ideologies_peaceful_libertarians_vs_autocratic = {
+#	opinion = {
+#		modifier = {
+#			add = -100
+#			has_ai_personality = expanded_ideologies_peaceful_libertarians	
+#			FROM = { has_election_type = none }
+#		}	
+#	}
+#}
+#
+#extended_ideologies_peaceful_libertarians_vs_slavery = {
+#	opinion = {
+#		modifier = {
+#			add = -200
+#			has_ai_personality = expanded_ideologies_peaceful_libertarians	
+#			FROM = { has_valid_civic = civic_slaver_guilds }
+#		}	
+#	}
+#}
+#
+#extended_ideologies_peaceful_libertarians_vs_statism = {
+#	opinion = {
+#		modifier = {
+#			add = -100
+#			has_ai_personality = expanded_ideologies_peaceful_libertarians	
+#			FROM = { 
+#				OR = {
+#				has_valid_civic = civic_police_state
+#				has_valid_civic = civic_cutthroat_politics
+#				has_valid_civic = civic_mining_guilds
+#				has_valid_civic = civic_shadow_council
+#				}
+#			}
+#		}	
+#	}
+#}

@@ -1,0 +1,94 @@
+# Social-Democracy
+expanded_ideologies_gov_social_democracy = {
+
+	ruler_title = EXPANDED_IDEOLOGIES_RT_SOCIAL_DEMOCRACY_LEAD_MALE
+	ruler_title_female = EXPANDED_IDEOLOGIES_RT_SOCIAL_DEMOCRACY_LEAD_FEMALE
+
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 200
+			leader_class = ruler
+		}
+		modifier = {
+			add = 100
+			OR = {
+				leader_class = scientist
+				leader_class = governor
+			}
+		}
+		modifier = {
+			add = 10
+			OR = {
+				leader_class = admiral
+				leader_class = general
+			}
+		}
+	}
+
+	possible = {
+		has_authority = auth_democratic
+		OR = {
+			has_ethic = ethic_pacifist
+			has_ethic = ethic_fanatic_pacifist
+			}
+		OR = {
+			has_ethic = ethic_fanatic_egalitarian
+			}
+		NOR = {
+			has_valid_civic = civic_meritocracy
+			has_valid_civic = civic_technocracy
+			has_valid_civic = civic_imperial_cult
+			has_valid_civic = civic_exalted_priesthood
+			has_valid_civic = civic_philosopher_king
+			has_valid_civic = civic_citizen_service
+			has_valid_civic = civic_police_state
+			has_valid_civic = civic_slaver_guilds
+			has_valid_civic = civic_inwards_perfection
+			has_valid_civic = civic_warrior_culture
+			has_valid_civic = civic_distinguished_admiralty
+			has_valid_civic = civic_corporate_dominion
+			has_valid_civic = civic_shadow_council
+			has_valid_civic = civic_mining_guilds
+			has_valid_civic = civic_nationalistic_zeal
+			has_valid_civic = civic_aristocratic_elite
+			has_valid_civic = civic_shared_burden #Must not outshine actual communist governments
+			has_valid_civic = civic_fanatic_purifiers
+			has_valid_civic = civic_barbaric_despoilers
+			}
+		NOR = {
+			has_ethic = ethic_spiritualist
+			has_ethic = ethic_fanatic_spiritualist
+			has_ethic = ethic_egalitarian
+			has_ethic = ethic_authoritarian
+			has_ethic = ethic_fanatic_authoritarian
+			}
+		has_valid_civic = civic_beacon_of_liberty
+		has_valid_civic = civic_idealistic_foundation
+	}
+
+	weight = {
+		base = 1000
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_philosopher_king
+		}
+		modifier = {
+			factor = 0.75
+			has_valid_civic = civic_corvee_system
+		}
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_meritocracy
+		}
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_parliamentary_system
+		}
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_free_haven
+		}
+	}
+}

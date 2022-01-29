@@ -1,0 +1,48 @@
+﻿l_default:
+ format.expanded_ideologies_anarcho_capitalist.1: "<expanded_ideologies_anarcho_capitalist> of [This.Capital.System.GetName]"
+ format.expanded_ideologies_anarcho_capitalist.2: "<expanded_ideologies_anarcho_capitalist> of [This.Capital.GetName]"
+ format.expanded_ideologies_anarcho_capitalist.3: "[This.GetSpeciesName] <expanded_ideologies_anarcho_capitalist>"
+ format.expanded_ideologies_anarcho_capitalist.4: "<expanded_ideologies_anarcho_capitalist_desc> [This.GetSpeciesName] <expanded_ideologies_anarcho_capitalist>"
+ format.expanded_ideologies_anarcho_capitalist.5: "[This.GetSpeciesName] <expanded_ideologies_anarcho_capitalist_mid_desc> <expanded_ideologies_anarcho_capitalist>"
+ 
+ format.expanded_ideologies_corporatocracy.1: "<expanded_ideologies_corporatocracy> of [This.Capital.System.GetName]"
+ format.expanded_ideologies_corporatocracy.2: "<expanded_ideologies_corporatocracy> of [This.Capital.GetName]"
+ format.expanded_ideologies_corporatocracy.3: "[This.GetSpeciesName] <expanded_ideologies_corporatocracy>"
+ format.expanded_ideologies_corporatocracy.4: "<expanded_ideologies_corporatocracy_desc> [This.GetSpeciesName] <expanded_ideologies_corporatocracy>"
+ format.expanded_ideologies_corporatocracy.5: "[This.GetSpeciesName] <expanded_ideologies_corporatocracy_mid_desc> <expanded_ideologies_corporatocracy>"
+ 
+ format.expanded_ideologies_social_democracy.1: "<expanded_ideologies_social_democracy> of [This.Capital.System.GetName]"
+ format.expanded_ideologies_social_democracy.2: "<expanded_ideologies_social_democracy> of [This.Capital.GetName]"
+ format.expanded_ideologies_social_democracy.3: "[This.GetSpeciesName] <expanded_ideologies_social_democracy>"
+ format.expanded_ideologies_social_democracy.4: "<expanded_ideologies_social_democracy_desc> [This.GetSpeciesName] <expanded_ideologies_social_democracy>"
+ format.expanded_ideologies_social_democracy.5: "[This.GetSpeciesName] <expanded_ideologies_social_democracy_mid_desc> <expanded_ideologies_social_democracy>"
+ 
+ format.expanded_ideologies_revolutionary_council.1: "<expanded_ideologies_revolutionary_council> of [This.Capital.System.GetName]"
+ format.expanded_ideologies_revolutionary_council.2: "<expanded_ideologies_revolutionary_council> of [This.Capital.GetName]"
+ format.expanded_ideologies_revolutionary_council.3: "[This.GetSpeciesName] <expanded_ideologies_revolutionary_council>"
+ format.expanded_ideologies_revolutionary_council.4: "<expanded_ideologies_revolutionary_council_desc> [This.GetSpeciesName] <expanded_ideologies_revolutionary_council>"
+ format.expanded_ideologies_revolutionary_council.5: "[This.GetSpeciesName] <expanded_ideologies_revolutionary_council_mid_desc> <expanded_ideologies_revolutionary_council>"
+ 
+ format.expanded_ideologies_nat_expan.1: "<expanded_ideologies_nat_expan> of [This.Capital.System.GetName]"
+ format.expanded_ideologies_nat_expan.2: "<expanded_ideologies_nat_expan> of [This.Capital.GetName]"
+ format.expanded_ideologies_nat_expan.3: "[This.GetSpeciesName] <expanded_ideologies_nat_expan>"
+ format.expanded_ideologies_nat_expan.4: "<expanded_ideologies_nat_expan_desc> [This.GetSpeciesName] <expanded_ideologies_nat_expan>"
+ format.expanded_ideologies_nat_expan.5: "[This.GetSpeciesName] <expanded_ideologies_nat_expan_mid_desc> <expanded_ideologies_nat_expan>"
+ 
+ format.expanded_ideologies_fascist_dict.1: "<expanded_ideologies_fascist_dict> of [This.Capital.System.GetName]"
+ format.expanded_ideologies_fascist_dict.2: "<expanded_ideologies_fascist_dict> of [This.Capital.GetName]"
+ format.expanded_ideologies_fascist_dict.3: "[This.GetSpeciesName] <expanded_ideologies_fascist_dict>"
+ format.expanded_ideologies_fascist_dict.4: "<expanded_ideologies_fascist_dict_desc> [This.GetSpeciesName] <expanded_ideologies_fascist_dict>"
+ format.expanded_ideologies_fascist_dict.5: "[This.GetSpeciesName] <expanded_ideologies_fascist_dict_mid_desc> <expanded_ideologies_fascist_dict>"
+ 
+ format.expanded_ideologies_holy_crusader_kingdom.1: "<expanded_ideologies_holy_crusader_kingdom> of [This.Capital.System.GetName]"
+ format.expanded_ideologies_holy_crusader_kingdom.2: "<expanded_ideologies_holy_crusader_kingdom> of [This.Capital.GetName]"
+ format.expanded_ideologies_holy_crusader_kingdom.3: "[This.GetSpeciesName] <expanded_ideologies_holy_crusader_kingdom>"
+ format.expanded_ideologies_holy_crusader_kingdom.4: "<expanded_ideologies_holy_crusader_kingdom_desc> [This.GetSpeciesName] <expanded_ideologies_holy_crusader_kingdom>"
+ format.expanded_ideologies_holy_crusader_kingdom.5: "[This.GetSpeciesName] <expanded_ideologies_holy_crusader_kingdom_mid_desc> <expanded_ideologies_holy_crusader_kingdom>"
+ 
+ format.expanded_ideologies_holy_imperium.1: "<expanded_ideologies_holy_imperium> of [This.Capital.System.GetName]"
+ format.expanded_ideologies_holy_imperium.2: "<expanded_ideologies_holy_imperium> of [This.Capital.GetName]"
+ format.expanded_ideologies_holy_imperium.3: "[This.GetSpeciesName] <expanded_ideologies_holy_imperium>"
+ format.expanded_ideologies_holy_imperium.4: "<expanded_ideologies_holy_imperium_desc> [This.GetSpeciesName] <expanded_ideologies_holy_imperium>"
+ format.expanded_ideologies_holy_imperium.5: "[This.GetSpeciesName] <expanded_ideologies_holy_imperium_mid_desc> <expanded_ideologies_holy_imperium>"
