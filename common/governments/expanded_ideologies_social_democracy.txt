@@ -29,10 +29,7 @@ expanded_ideologies_gov_social_democracy = {
 
 	possible = {
 		has_authority = auth_democratic
-		OR = {
-			has_ethic = ethic_pacifist
-			has_ethic = ethic_fanatic_pacifist
-			}
+		is_pacifist = yes
 		OR = {
 			has_ethic = ethic_fanatic_egalitarian
 			}
@@ -58,8 +55,7 @@ expanded_ideologies_gov_social_democracy = {
 			has_valid_civic = civic_barbaric_despoilers
 			}
 		NOR = {
-			has_ethic = ethic_spiritualist
-			has_ethic = ethic_fanatic_spiritualist
+			is_spiritualist = yes
 			has_ethic = ethic_egalitarian
 			has_ethic = ethic_authoritarian
 			has_ethic = ethic_fanatic_authoritarian

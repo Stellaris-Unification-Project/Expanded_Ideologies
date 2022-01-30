@@ -21,10 +21,7 @@ greetings = {
 			has_ai_personality = expanded_ideologies_peaceful_libertarians
 			NOT = { is_at_war_with = FROM }
 			FROM = { 
-				NOR = { 
-					has_ethic = ethic_authoritarian
-					has_Ethic = ethic_fanatic_authoritarian
-					} 
+				is_authoritarian = no 
 				}
 			OR = {
 				is_hostile_to = FROM
@@ -40,10 +37,7 @@ greetings = {
 			has_ai_personality = expanded_ideologies_peaceful_libertarians
 			NOT = { is_at_war_with = FROM }
 			FROM = {
-				OR = {
-					has_ethic = ethic_xenophobe
-					has_ethic = ethic_fanatic_xenophobe
-				}
+				is_xenophobe = yes
 			}
 			OR = {
 				is_hostile_to = FROM
@@ -90,10 +84,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = expanded_ideologies_peaceful_libertarians
 			FROM = {
-				OR = {
-					has_ethic = ethic_spiritualist
-					has_ethic = ethic_fanatic_spiritualist
-				}
+				is_spiritualist = yes
 			}
 			NOT = { is_at_war_with = FROM }
 			is_neutral_to = FROM

@@ -69,8 +69,10 @@ greetings = {
 		}
 		trigger = {
 			has_ai_personality = expanded_ideologies_religious_crusaders
-			NOT = { is_same_species = FROM }
-			NOT = { is_at_war_with = FROM }
+			NOR = {
+				is_same_species = FROM
+				is_at_war_with = FROM
+			}
 			is_neutral_to = FROM
 		}
 	}
@@ -110,8 +112,10 @@ greetings = {
 		}
 		trigger = {
 			has_ai_personality = expanded_ideologies_religious_crusaders
-			NOT = { is_same_species = FROM }
-			NOT = { is_at_war_with = FROM }
+			NOR = {
+				is_same_species = FROM
+				is_at_war_with = FROM
+			}
 			OR = {
 				is_friendly_to = FROM
 				is_cordial_to = FROM

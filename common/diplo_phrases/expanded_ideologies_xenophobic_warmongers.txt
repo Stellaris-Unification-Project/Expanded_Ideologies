@@ -6,8 +6,10 @@ greetings = {
 		}
 		trigger = {
 			has_ai_personality = expanded_ideologies_xenophobic_warmongers
-			NOT = { is_same_species = FROM }
-			NOT = { is_at_war_with = FROM }
+			NOR = {
+				is_same_species = FROM
+				is_at_war_with = FROM
+			}
 			OR = {
 				is_hostile_to = FROM
 				is_unfriendly_to = FROM
@@ -33,8 +35,10 @@ greetings = {
 		}
 		trigger = {
 			has_ai_personality = expanded_ideologies_xenophobic_warmongers
-			NOT = { is_same_species = FROM }
-			NOT = { is_at_war_with = FROM }
+			NOR = {
+				is_same_species = FROM
+				is_at_war_with = FROM
+			}
 			OR = {
 				is_domineering_to = FROM
 			}
@@ -132,10 +136,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = expanded_ideologies_xenophobic_warmongers
 			FROM = {
-				OR = {
-					has_ethic = ethic_pacifist
-					has_ethic = ethic_fanatic_pacifist
-				}
+				is_pacifist = yes
 			}
 			NOT = { is_at_war_with = FROM }
 			OR = {

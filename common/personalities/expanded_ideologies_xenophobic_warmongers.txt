@@ -46,19 +46,9 @@ expanded_ideologies_xenophobic_warmongers = {
 
 	allow = {
 		is_country_type = default
-		
-		OR = {
-			has_ethic = "ethic_militarist"
-			has_ethic = "ethic_fanatic_militarist"
-		}
-		OR = {
-			has_ethic = "ethic_xenophobe"
-			has_ethic = "ethic_fanatic_xenophobe"
-		}
-		OR = {
-			has_ethic = "ethic_authoritarian"
-			has_ethic = "ethic_fanatic_authoritarian"
-		}
+		is_militarist = yes
+		is_xenophobe = yes
+		is_authoritarian = yes
 		OR = {
 			has_election_type = oligarchic
 			has_election_type = none

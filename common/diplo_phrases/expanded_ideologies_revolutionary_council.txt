@@ -64,10 +64,7 @@ greetings = {
 		}
 		trigger = {
 			has_ai_personality = expanded_ideologies_revolutionary_council
-			OR = {
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
-			}
+			is_egalitarian = yes
 			NOT = { is_at_war_with = FROM }
 			is_neutral_to = FROM
 		}

@@ -31,18 +31,9 @@ expanded_ideologies_gov_fascist_dict = {
 
 	possible = {
 		has_authority = auth_dictatorial
-		OR = {
-			has_ethic = ethic_authoritarian
-			has_ethic = ethic_fanatic_authoritarian
-		}
-		OR = {
-			has_ethic = ethic_xenophobe
-			has_ethic = ethic_fanatic_xenophobe
-		}
-		OR = {
-			has_ethic = ethic_militarist
-			has_ethic = ethic_fanatic_militarist
-		}
+		is_authoritarian = yes
+		is_xenophobe = yes
+		is_militarist = yes
 		NOR = {
 			has_valid_civic = civic_aristocratic_elite
 			has_valid_civic = civic_philosopher_king
@@ -53,12 +44,8 @@ expanded_ideologies_gov_fascist_dict = {
 			has_valid_civic = civic_parliamentary_system
 			has_valid_civic = civic_shared_burden
 			has_valid_civic = civic_barbaric_despoilers
-		}
-		NOR = {
-			has_ethic = ethic_spiritualist
-			has_ethic = ethic_fanatic_spiritualist
-			has_ethic = ethic_egalitarian
-			has_ethic = ethic_fanatic_egalitarian
+			is_spiritualist = yes
+			is_egalitarian = yes
 		}
 		has_valid_civic = civic_nationalistic_zeal
 	}

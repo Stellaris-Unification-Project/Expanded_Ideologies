@@ -54,8 +54,7 @@ empire_name_format = {
 			has_government = "expanded_ideologies_gov_anarcho_capitalism"
 			is_pirate = no
 			is_primitive = no
-			NOT = { is_country_type = fallen_empire }
-			NOT = { is_country_type = awakened_fallen_empire }
+			is_fallen_empire = no
 		}
 	}
 	format = "format.expanded_ideologies_anarcho_capitalist.1"
@@ -73,8 +72,7 @@ empire_name_format = {
 			has_government = "expanded_ideologies_gov_anarcho_capitalism"
 			is_pirate = no
 			is_primitive = no
-			NOT = { is_country_type = fallen_empire }
-			NOT = { is_country_type = awakened_fallen_empire }
+			is_fallen_empire = no
 		}
 	}
 	format = "format.expanded_ideologies_anarcho_capitalist.2"
@@ -92,8 +90,7 @@ empire_name_format = {
 			has_government = "expanded_ideologies_gov_anarcho_capitalism"
 			is_pirate = no
 			is_primitive = no
-			NOT = { is_country_type = fallen_empire }
-			NOT = { is_country_type = awakened_fallen_empire }
+			is_fallen_empire = no
 		}
 	}
 	format = "format.expanded_ideologies_anarcho_capitalist.3"
@@ -111,8 +108,7 @@ empire_name_format = {
 			has_government = "expanded_ideologies_gov_anarcho_capitalism"
 			is_pirate = no
 			is_primitive = no
-			NOT = { is_country_type = fallen_empire }
-			NOT = { is_country_type = awakened_fallen_empire }
+			is_fallen_empire = no
 		}
 	}
 	format = "format.expanded_ideologies_anarcho_capitalist.4"
@@ -130,8 +126,7 @@ empire_name_format = {
 			has_government = "expanded_ideologies_gov_anarcho_capitalism"
 			is_pirate = no
 			is_primitive = no
-			NOT = { is_country_type = fallen_empire }
-			NOT = { is_country_type = awakened_fallen_empire }
+			is_fallen_empire = no
 		}
 	}
 	format = "format.expanded_ideologies_anarcho_capitalist.5"

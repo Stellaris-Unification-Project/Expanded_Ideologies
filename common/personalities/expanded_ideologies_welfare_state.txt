@@ -46,11 +46,7 @@ expanded_ideologies_welfare_state = {
 
 	allow = {
 		is_country_type = default
-		
-		OR = {
-			has_ethic = "ethic_pacifist"
-			has_ethic = "ethic_fanatic_pacifist"
-		}
+		is_pacifist = yes
 		OR = {
 			has_ethic = "ethic_fanatic_egalitarian"		
 		}

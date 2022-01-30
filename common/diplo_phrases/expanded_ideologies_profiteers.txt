@@ -20,10 +20,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = expanded_ideologies_profiteers
 			FROM = {
-				OR = {
-					has_ethic = ethic_spiritualist
-					has_ethic = ethic_fanatic_spiritualist
-				}
+				is_spiritualist = yes
 			}
 			NOT = { is_at_war_with = FROM }
 			OR = {
@@ -71,10 +68,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = expanded_ideologies_profiteers
 			FROM = {
-				OR = {
-					has_ethic = ethic_spiritualist
-					has_ethic = ethic_fanatic_spiritualist
-				}
+				is_spiritualist = yes
 			}
 			NOT = { is_at_war_with = FROM }
 			is_neutral_to = FROM

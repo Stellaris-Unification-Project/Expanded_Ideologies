@@ -46,8 +46,7 @@ empire_name_format = {
 			has_government = "expanded_ideologies_gov_holy_imperium"
 			is_pirate = no
 			is_primitive = no
-			NOT = { is_country_type = fallen_empire }
-			NOT = { is_country_type = awakened_fallen_empire }
+			is_fallen_empire = no
 		}
 	}
 	format = "format.expanded_ideologies_holy_imperium.1"
@@ -65,8 +64,7 @@ empire_name_format = {
 			has_government = "expanded_ideologies_gov_holy_imperium"
 			is_pirate = no
 			is_primitive = no
-			NOT = { is_country_type = fallen_empire }
-			NOT = { is_country_type = awakened_fallen_empire }
+			is_fallen_empire = no
 		}
 	}
 	format = "format.expanded_ideologies_holy_imperium.2"
@@ -84,8 +82,7 @@ empire_name_format = {
 			has_government = "expanded_ideologies_gov_holy_imperium"
 			is_pirate = no
 			is_primitive = no
-			NOT = { is_country_type = fallen_empire }
-			NOT = { is_country_type = awakened_fallen_empire }
+			is_fallen_empire = no
 		}
 	}
 	format = "format.expanded_ideologies_holy_imperium.3"
@@ -103,8 +100,7 @@ empire_name_format = {
 			has_government = "expanded_ideologies_gov_holy_imperium"
 			is_pirate = no
 			is_primitive = no
-			NOT = { is_country_type = fallen_empire }
-			NOT = { is_country_type = awakened_fallen_empire }
+			is_fallen_empire = no
 		}
 	}
 	format = "format.expanded_ideologies_holy_imperium.4"
@@ -122,8 +118,7 @@ empire_name_format = {
 			has_government = "expanded_ideologies_gov_holy_imperium"
 			is_pirate = no
 			is_primitive = no
-			NOT = { is_country_type = fallen_empire }
-			NOT = { is_country_type = awakened_fallen_empire }
+			is_fallen_empire = no
 		}
 	}
 	format = "format.expanded_ideologies_holy_imperium.5"

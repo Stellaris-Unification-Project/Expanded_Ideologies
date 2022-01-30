@@ -33,10 +33,7 @@ greetings = {
 		trigger = {
 			has_ai_personality = expanded_ideologies_welfare_state
 			FROM = {
-				OR = {
-					has_ethic = ethic_militarist
-					has_ethic = ethic_fanatic_militarist
-				}
+				is_militarist = yes
 			}
 			NOT = { is_at_war_with = FROM }
 			OR = {
@@ -117,8 +114,10 @@ greetings = {
 		}
 		trigger = {
 			has_ai_personality = expanded_ideologies_welfare_state
-			NOT = { is_in_federation_with = FROM }
-			NOT = { is_at_war_with = FROM }
+			NOR = {
+				is_in_federation_with = FROM
+				is_at_war_with = FROM
+			}
 			OR = {
 				is_friendly_to = FROM
 				is_cordial_to = FROM
